@@ -49,23 +49,7 @@
             label12 = new Label();
             label13 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            textBox27 = new TextBox();
-            textBox26 = new TextBox();
-            textBox15 = new TextBox();
-            textBox17 = new TextBox();
-            textBox19 = new TextBox();
-            textBox22 = new TextBox();
-            textBox23 = new TextBox();
-            textBox21 = new TextBox();
-            textBox18 = new TextBox();
-            textBox24 = new TextBox();
-            textBox14 = new TextBox();
-            textBox20 = new TextBox();
-            textBox13 = new TextBox();
-            textBox25 = new TextBox();
-            textBox12 = new TextBox();
             m8 = new TextBox();
-            textBox10 = new TextBox();
             m7 = new TextBox();
             m6 = new TextBox();
             m5 = new TextBox();
@@ -73,16 +57,10 @@
             m3 = new TextBox();
             label17 = new Label();
             m2 = new TextBox();
-            label15 = new Label();
-            textBox16 = new TextBox();
-            textBox11 = new TextBox();
             m1 = new TextBox();
-            label14 = new Label();
             m9 = new TextBox();
             button1 = new Button();
             button2 = new Button();
-            result = new TextBox();
-            label16 = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -324,29 +302,11 @@
             tableLayoutPanel1.AutoSize = true;
             tableLayoutPanel1.BackgroundImageLayout = ImageLayout.Center;
             tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Inset;
-            tableLayoutPanel1.ColumnCount = 5;
+            tableLayoutPanel1.ColumnCount = 3;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 432F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 117F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 117F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 117F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 117F));
-            tableLayoutPanel1.Controls.Add(textBox27, 4, 9);
-            tableLayoutPanel1.Controls.Add(textBox26, 3, 9);
-            tableLayoutPanel1.Controls.Add(textBox15, 4, 8);
-            tableLayoutPanel1.Controls.Add(textBox17, 4, 7);
-            tableLayoutPanel1.Controls.Add(textBox19, 4, 6);
-            tableLayoutPanel1.Controls.Add(textBox22, 4, 5);
-            tableLayoutPanel1.Controls.Add(textBox23, 3, 5);
-            tableLayoutPanel1.Controls.Add(textBox21, 3, 7);
-            tableLayoutPanel1.Controls.Add(textBox18, 3, 8);
-            tableLayoutPanel1.Controls.Add(textBox24, 3, 4);
-            tableLayoutPanel1.Controls.Add(textBox14, 4, 4);
-            tableLayoutPanel1.Controls.Add(textBox20, 3, 6);
-            tableLayoutPanel1.Controls.Add(textBox13, 4, 3);
-            tableLayoutPanel1.Controls.Add(textBox25, 3, 3);
-            tableLayoutPanel1.Controls.Add(textBox12, 4, 2);
             tableLayoutPanel1.Controls.Add(m8, 2, 8);
-            tableLayoutPanel1.Controls.Add(textBox10, 4, 1);
             tableLayoutPanel1.Controls.Add(m7, 2, 7);
             tableLayoutPanel1.Controls.Add(m6, 2, 6);
             tableLayoutPanel1.Controls.Add(m5, 2, 5);
@@ -354,14 +314,11 @@
             tableLayoutPanel1.Controls.Add(m3, 2, 3);
             tableLayoutPanel1.Controls.Add(label17, 2, 0);
             tableLayoutPanel1.Controls.Add(m2, 2, 2);
-            tableLayoutPanel1.Controls.Add(label15, 4, 0);
-            tableLayoutPanel1.Controls.Add(textBox16, 3, 2);
             tableLayoutPanel1.Controls.Add(toc, 0, 2);
             tableLayoutPanel1.Controls.Add(Stat, 0, 1);
             tableLayoutPanel1.Controls.Add(label13, 1, 6);
             tableLayoutPanel1.Controls.Add(label2, 0, 0);
             tableLayoutPanel1.Controls.Add(label4, 1, 7);
-            tableLayoutPanel1.Controls.Add(textBox11, 3, 1);
             tableLayoutPanel1.Controls.Add(m1, 2, 1);
             tableLayoutPanel1.Controls.Add(label5, 1, 8);
             tableLayoutPanel1.Controls.Add(label10, 1, 9);
@@ -377,7 +334,6 @@
             tableLayoutPanel1.Controls.Add(adbmslab, 0, 7);
             tableLayoutPanel1.Controls.Add(label8, 0, 8);
             tableLayoutPanel1.Controls.Add(label1, 0, 9);
-            tableLayoutPanel1.Controls.Add(label14, 3, 0);
             tableLayoutPanel1.Controls.Add(label3, 1, 0);
             tableLayoutPanel1.Controls.Add(m9, 2, 9);
             tableLayoutPanel1.Location = new Point(71, 200);
@@ -399,231 +355,23 @@
             tableLayoutPanel1.TabIndex = 20;
             tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
-            // textBox27
-            // 
-            textBox27.Anchor = AnchorStyles.None;
-            textBox27.BackColor = SystemColors.Menu;
-            textBox27.BorderStyle = BorderStyle.None;
-            textBox27.Enabled = false;
-            textBox27.ForeColor = SystemColors.WindowFrame;
-            textBox27.Location = new Point(796, 393);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(111, 20);
-            textBox27.TabIndex = 41;
-            textBox27.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox26
-            // 
-            textBox26.Anchor = AnchorStyles.None;
-            textBox26.BackColor = SystemColors.Menu;
-            textBox26.BorderStyle = BorderStyle.None;
-            textBox26.Enabled = false;
-            textBox26.ForeColor = SystemColors.WindowFrame;
-            textBox26.Location = new Point(677, 393);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(111, 20);
-            textBox26.TabIndex = 40;
-            textBox26.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox15
-            // 
-            textBox15.Anchor = AnchorStyles.None;
-            textBox15.BackColor = SystemColors.Menu;
-            textBox15.BorderStyle = BorderStyle.None;
-            textBox15.Enabled = false;
-            textBox15.ForeColor = SystemColors.WindowFrame;
-            textBox15.Location = new Point(796, 348);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(111, 20);
-            textBox15.TabIndex = 29;
-            textBox15.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox17
-            // 
-            textBox17.Anchor = AnchorStyles.None;
-            textBox17.BackColor = SystemColors.Menu;
-            textBox17.BorderStyle = BorderStyle.None;
-            textBox17.Enabled = false;
-            textBox17.ForeColor = SystemColors.WindowFrame;
-            textBox17.Location = new Point(796, 306);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(111, 20);
-            textBox17.TabIndex = 31;
-            textBox17.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox19
-            // 
-            textBox19.Anchor = AnchorStyles.None;
-            textBox19.BackColor = SystemColors.Menu;
-            textBox19.BorderStyle = BorderStyle.None;
-            textBox19.Enabled = false;
-            textBox19.ForeColor = SystemColors.WindowFrame;
-            textBox19.Location = new Point(796, 264);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(111, 20);
-            textBox19.TabIndex = 33;
-            textBox19.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox22
-            // 
-            textBox22.Anchor = AnchorStyles.None;
-            textBox22.BackColor = SystemColors.Menu;
-            textBox22.BorderStyle = BorderStyle.None;
-            textBox22.Enabled = false;
-            textBox22.ForeColor = SystemColors.WindowFrame;
-            textBox22.Location = new Point(796, 222);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(111, 20);
-            textBox22.TabIndex = 36;
-            textBox22.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox23
-            // 
-            textBox23.Anchor = AnchorStyles.None;
-            textBox23.BackColor = SystemColors.Menu;
-            textBox23.BorderStyle = BorderStyle.None;
-            textBox23.Enabled = false;
-            textBox23.ForeColor = SystemColors.WindowFrame;
-            textBox23.Location = new Point(677, 222);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(111, 20);
-            textBox23.TabIndex = 37;
-            textBox23.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox21
-            // 
-            textBox21.Anchor = AnchorStyles.None;
-            textBox21.BackColor = SystemColors.Menu;
-            textBox21.BorderStyle = BorderStyle.None;
-            textBox21.Enabled = false;
-            textBox21.ForeColor = SystemColors.WindowFrame;
-            textBox21.Location = new Point(677, 306);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(111, 20);
-            textBox21.TabIndex = 35;
-            textBox21.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox18
-            // 
-            textBox18.Anchor = AnchorStyles.None;
-            textBox18.BackColor = SystemColors.Menu;
-            textBox18.BorderStyle = BorderStyle.None;
-            textBox18.Enabled = false;
-            textBox18.ForeColor = SystemColors.WindowFrame;
-            textBox18.Location = new Point(677, 348);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(111, 20);
-            textBox18.TabIndex = 32;
-            textBox18.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox24
-            // 
-            textBox24.Anchor = AnchorStyles.None;
-            textBox24.BackColor = SystemColors.Menu;
-            textBox24.BorderStyle = BorderStyle.None;
-            textBox24.Enabled = false;
-            textBox24.ForeColor = SystemColors.WindowFrame;
-            textBox24.Location = new Point(677, 180);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(111, 20);
-            textBox24.TabIndex = 38;
-            textBox24.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox14
-            // 
-            textBox14.Anchor = AnchorStyles.None;
-            textBox14.BackColor = SystemColors.Menu;
-            textBox14.BorderStyle = BorderStyle.None;
-            textBox14.Enabled = false;
-            textBox14.ForeColor = SystemColors.WindowFrame;
-            textBox14.Location = new Point(796, 180);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(111, 20);
-            textBox14.TabIndex = 28;
-            textBox14.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox20
-            // 
-            textBox20.Anchor = AnchorStyles.None;
-            textBox20.BackColor = SystemColors.Menu;
-            textBox20.BorderStyle = BorderStyle.None;
-            textBox20.Enabled = false;
-            textBox20.ForeColor = SystemColors.WindowFrame;
-            textBox20.Location = new Point(677, 264);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(111, 20);
-            textBox20.TabIndex = 34;
-            textBox20.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox13
-            // 
-            textBox13.Anchor = AnchorStyles.None;
-            textBox13.BackColor = SystemColors.Menu;
-            textBox13.BorderStyle = BorderStyle.None;
-            textBox13.Enabled = false;
-            textBox13.ForeColor = SystemColors.WindowFrame;
-            textBox13.Location = new Point(796, 138);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(111, 20);
-            textBox13.TabIndex = 27;
-            textBox13.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox25
-            // 
-            textBox25.Anchor = AnchorStyles.None;
-            textBox25.BackColor = SystemColors.Menu;
-            textBox25.BorderStyle = BorderStyle.None;
-            textBox25.Enabled = false;
-            textBox25.ForeColor = SystemColors.WindowFrame;
-            textBox25.Location = new Point(677, 138);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(111, 20);
-            textBox25.TabIndex = 39;
-            textBox25.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox12
-            // 
-            textBox12.Anchor = AnchorStyles.None;
-            textBox12.BackColor = SystemColors.Menu;
-            textBox12.BorderStyle = BorderStyle.None;
-            textBox12.Enabled = false;
-            textBox12.ForeColor = SystemColors.WindowFrame;
-            textBox12.Location = new Point(796, 96);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(111, 20);
-            textBox12.TabIndex = 26;
-            textBox12.TextAlign = HorizontalAlignment.Center;
-            // 
             // m8
             // 
             m8.Anchor = AnchorStyles.None;
             m8.BackColor = SystemColors.Menu;
             m8.BorderStyle = BorderStyle.None;
-            m8.Location = new Point(558, 348);
+            m8.Location = new Point(677, 348);
             m8.Name = "m8";
             m8.Size = new Size(111, 20);
             m8.TabIndex = 25;
             m8.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox10
-            // 
-            textBox10.Anchor = AnchorStyles.None;
-            textBox10.BackColor = SystemColors.Menu;
-            textBox10.BorderStyle = BorderStyle.None;
-            textBox10.Enabled = false;
-            textBox10.ForeColor = SystemColors.WindowFrame;
-            textBox10.Location = new Point(796, 54);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(111, 20);
-            textBox10.TabIndex = 24;
-            textBox10.TextAlign = HorizontalAlignment.Center;
             // 
             // m7
             // 
             m7.Anchor = AnchorStyles.None;
             m7.BackColor = SystemColors.Menu;
             m7.BorderStyle = BorderStyle.None;
-            m7.Location = new Point(558, 306);
+            m7.Location = new Point(677, 306);
             m7.Name = "m7";
             m7.Size = new Size(111, 20);
             m7.TabIndex = 26;
@@ -634,7 +382,7 @@
             m6.Anchor = AnchorStyles.None;
             m6.BackColor = SystemColors.Menu;
             m6.BorderStyle = BorderStyle.None;
-            m6.Location = new Point(558, 264);
+            m6.Location = new Point(677, 264);
             m6.Name = "m6";
             m6.Size = new Size(111, 20);
             m6.TabIndex = 27;
@@ -645,7 +393,7 @@
             m5.Anchor = AnchorStyles.None;
             m5.BackColor = SystemColors.Menu;
             m5.BorderStyle = BorderStyle.None;
-            m5.Location = new Point(558, 222);
+            m5.Location = new Point(677, 222);
             m5.Name = "m5";
             m5.Size = new Size(111, 20);
             m5.TabIndex = 28;
@@ -656,7 +404,7 @@
             m4.Anchor = AnchorStyles.None;
             m4.BackColor = SystemColors.Menu;
             m4.BorderStyle = BorderStyle.None;
-            m4.Location = new Point(558, 180);
+            m4.Location = new Point(677, 180);
             m4.Name = "m4";
             m4.Size = new Size(111, 20);
             m4.TabIndex = 29;
@@ -667,7 +415,7 @@
             m3.Anchor = AnchorStyles.None;
             m3.BackColor = SystemColors.Menu;
             m3.BorderStyle = BorderStyle.None;
-            m3.Location = new Point(558, 138);
+            m3.Location = new Point(677, 138);
             m3.Name = "m3";
             m3.Size = new Size(111, 20);
             m3.TabIndex = 31;
@@ -678,7 +426,7 @@
             label17.Anchor = AnchorStyles.None;
             label17.BackColor = SystemColors.ControlLight;
             label17.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label17.Location = new Point(555, 2);
+            label17.Location = new Point(674, 2);
             label17.Margin = new Padding(0);
             label17.Name = "label17";
             label17.Size = new Size(117, 40);
@@ -691,85 +439,31 @@
             m2.Anchor = AnchorStyles.None;
             m2.BackColor = SystemColors.Menu;
             m2.BorderStyle = BorderStyle.None;
-            m2.Location = new Point(558, 96);
+            m2.Location = new Point(677, 96);
             m2.Name = "m2";
             m2.Size = new Size(111, 20);
             m2.TabIndex = 30;
             m2.TextAlign = HorizontalAlignment.Center;
             m2.TextChanged += textBox7_TextChanged;
             // 
-            // label15
-            // 
-            label15.Anchor = AnchorStyles.None;
-            label15.BackColor = SystemColors.ControlLight;
-            label15.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.Location = new Point(793, 2);
-            label15.Margin = new Padding(0);
-            label15.Name = "label15";
-            label15.Size = new Size(117, 40);
-            label15.TabIndex = 22;
-            label15.Text = "Letter Grade";
-            label15.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // textBox16
-            // 
-            textBox16.Anchor = AnchorStyles.None;
-            textBox16.BackColor = SystemColors.Menu;
-            textBox16.BorderStyle = BorderStyle.None;
-            textBox16.Enabled = false;
-            textBox16.ForeColor = SystemColors.WindowFrame;
-            textBox16.Location = new Point(677, 96);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(111, 20);
-            textBox16.TabIndex = 30;
-            textBox16.TextAlign = HorizontalAlignment.Center;
-            textBox16.TextChanged += textBox16_TextChanged;
-            // 
-            // textBox11
-            // 
-            textBox11.Anchor = AnchorStyles.None;
-            textBox11.BackColor = SystemColors.Menu;
-            textBox11.BorderStyle = BorderStyle.None;
-            textBox11.Enabled = false;
-            textBox11.ForeColor = SystemColors.WindowFrame;
-            textBox11.Location = new Point(677, 54);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(111, 20);
-            textBox11.TabIndex = 25;
-            textBox11.TextAlign = HorizontalAlignment.Center;
-            textBox11.TextChanged += textBox11_TextChanged;
-            // 
             // m1
             // 
             m1.Anchor = AnchorStyles.None;
             m1.BackColor = SystemColors.Menu;
             m1.BorderStyle = BorderStyle.None;
-            m1.Location = new Point(558, 54);
+            m1.Location = new Point(677, 54);
             m1.Name = "m1";
             m1.Size = new Size(111, 20);
             m1.TabIndex = 24;
             m1.TextAlign = HorizontalAlignment.Center;
             m1.TextChanged += textBox1_TextChanged;
             // 
-            // label14
-            // 
-            label14.Anchor = AnchorStyles.None;
-            label14.BackColor = SystemColors.ControlLight;
-            label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label14.Location = new Point(674, 2);
-            label14.Margin = new Padding(0);
-            label14.Name = "label14";
-            label14.Size = new Size(117, 40);
-            label14.TabIndex = 21;
-            label14.Text = "Grade Point";
-            label14.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // m9
             // 
             m9.Anchor = AnchorStyles.None;
             m9.BackColor = SystemColors.Menu;
             m9.BorderStyle = BorderStyle.None;
-            m9.Location = new Point(558, 393);
+            m9.Location = new Point(677, 393);
             m9.Name = "m9";
             m9.Size = new Size(111, 20);
             m9.TabIndex = 32;
@@ -782,7 +476,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(671, 683);
+            button1.Location = new Point(861, 681);
             button1.Margin = new Padding(0);
             button1.Name = "button1";
             button1.Size = new Size(122, 34);
@@ -807,40 +501,12 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // result
-            // 
-            result.Anchor = AnchorStyles.None;
-            result.BackColor = SystemColors.HighlightText;
-            result.Enabled = false;
-            result.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            result.ForeColor = SystemColors.InfoText;
-            result.Location = new Point(858, 683);
-            result.Name = "result";
-            result.Size = new Size(125, 30);
-            result.TabIndex = 23;
-            result.TextAlign = HorizontalAlignment.Right;
-            result.TextChanged += result_TextChanged;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.BackColor = SystemColors.Menu;
-            label16.FlatStyle = FlatStyle.Flat;
-            label16.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(814, 681);
-            label16.Name = "label16";
-            label16.Size = new Size(26, 28);
-            label16.TabIndex = 24;
-            label16.Text = "=";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1049, 878);
-            Controls.Add(label16);
-            Controls.Add(result);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(tableLayoutPanel1);
@@ -876,8 +542,6 @@
         private Label label12;
         private Label label13;
         private TableLayoutPanel tableLayoutPanel1;
-        private Label label14;
-        private Label label15;
         private Label label17;
         private TextBox m1;
         private TextBox m8;
@@ -888,27 +552,7 @@
         private TextBox m3;
         private TextBox m2;
         private TextBox m9;
-        private TextBox textBox23;
-        private TextBox textBox21;
-        private TextBox textBox18;
-        private TextBox textBox24;
-        private TextBox textBox14;
-        private TextBox textBox20;
-        private TextBox textBox13;
-        private TextBox textBox25;
-        private TextBox textBox12;
-        private TextBox textBox10;
-        private TextBox textBox16;
-        private TextBox textBox11;
-        private TextBox textBox15;
-        private TextBox textBox17;
-        private TextBox textBox19;
-        private TextBox textBox22;
-        private TextBox textBox27;
-        private TextBox textBox26;
         private Button button1;
         private Button button2;
-        private TextBox result;
-        private Label label16;
     }
 }

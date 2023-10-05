@@ -52,15 +52,15 @@ namespace CGPA
 
             gpa.Text = cg.ToString("F2");
 
-            g1.Text = gPt1.ToString();
-            g2.Text = gPt2.ToString();
-            g3.Text = gPt3.ToString();
-            g4.Text = gPt4.ToString();
-            g5.Text = gPt5.ToString();
-            g6.Text = gPt6.ToString();
-            g7.Text = gPt7.ToString();
-            g8.Text = gPt8.ToString();
-            g9.Text = gPt9.ToString();
+            g1.Text = gPt1.ToString("F2");
+            g2.Text = gPt2.ToString("F2");
+            g3.Text = gPt3.ToString("F2");
+            g4.Text = gPt4.ToString("F2");
+            g5.Text = gPt5.ToString("F2");
+            g6.Text = gPt6.ToString("F2");
+            g7.Text = gPt7.ToString("F2");
+            g8.Text = gPt8.ToString("F2");
+            g9.Text = gPt9.ToString("F2");
 
 
             l1.Text = gradCalc(n1).lg;
@@ -78,10 +78,10 @@ namespace CGPA
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
             Form1 form1 = new Form1();
             form1.Show();
-
+            this.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

@@ -50,7 +50,7 @@ namespace CGPA
             double totalCGrade = (cr1 * gPt1) + (cr2 * gPt2) + (cr3 * gPt3) + (cr4 * gPt4) + (cr5 * gPt5) + (cr6 * gPt6) + (cr7 * gPt7) + (cr8 * gPt8) + (cr9 * gPt9);
             double cg = totalCGrade / totalcr;
 
-            gpa.Text = cg.ToString();
+            gpa.Text = cg.ToString("F2");
 
             g1.Text = gPt1.ToString();
             g2.Text = gPt2.ToString();

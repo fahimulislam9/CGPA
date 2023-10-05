@@ -61,6 +61,7 @@
             m9 = new TextBox();
             button1 = new Button();
             button2 = new Button();
+            label14 = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -337,7 +338,7 @@
             tableLayoutPanel1.Controls.Add(label1, 0, 9);
             tableLayoutPanel1.Controls.Add(label3, 1, 0);
             tableLayoutPanel1.Controls.Add(m9, 2, 9);
-            tableLayoutPanel1.Location = new Point(61, 106);
+            tableLayoutPanel1.Location = new Point(61, 174);
             tableLayoutPanel1.Margin = new Padding(0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 10;
@@ -477,7 +478,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(615, 587);
+            button1.Location = new Point(615, 655);
             button1.Margin = new Padding(0);
             button1.Name = "button1";
             button1.Size = new Size(120, 35);
@@ -493,7 +494,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(61, 587);
+            button2.Location = new Point(61, 655);
             button2.Margin = new Padding(0);
             button2.Name = "button2";
             button2.Size = new Size(120, 35);
@@ -502,13 +503,27 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
+            // label14
+            // 
+            label14.Anchor = AnchorStyles.None;
+            label14.AutoSize = true;
+            label14.FlatStyle = FlatStyle.Flat;
+            label14.Font = new Font("Bookman Old Style", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = Color.DarkSlateGray;
+            label14.Location = new Point(63, 86);
+            label14.Name = "label14";
+            label14.Size = new Size(615, 32);
+            label14.TabIndex = 23;
+            label14.Text = "GPA calculator for 3rd Year 1st Semester\r\n";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(796, 691);
+            ClientSize = new Size(796, 734);
+            Controls.Add(label14);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(tableLayoutPanel1);
@@ -557,5 +572,6 @@
         private TextBox m9;
         private Button button1;
         private Button button2;
+        private Label label14;
     }
 }

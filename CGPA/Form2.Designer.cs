@@ -552,7 +552,7 @@
             Controls.Add(label3);
             Controls.Add(gpa);
             Controls.Add(tableLayoutPanel1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "Form2";
             Text = "GPA";
             Load += Form2_Load;

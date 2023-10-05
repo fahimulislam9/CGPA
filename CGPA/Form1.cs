@@ -74,7 +74,7 @@ namespace CGPA
             Form2 f2 = new Form2();
             try
             {
-               // int n1, n2, n3, n4, n5, n6, n7, n8, n9;
+                // int n1, n2, n3, n4, n5, n6, n7, n8, n9;
 
 
                 f2.n1 = int.Parse(m1.Text);
@@ -105,7 +105,7 @@ namespace CGPA
                 MessageBox.Show("Every box must be filled");
             }
 
- 
+
         }
 
 
@@ -146,6 +146,6 @@ namespace CGPA
         {
 
         }
-       
+
     }
 }

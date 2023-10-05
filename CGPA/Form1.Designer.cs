@@ -300,6 +300,7 @@
             // 
             tableLayoutPanel1.Anchor = AnchorStyles.None;
             tableLayoutPanel1.AutoSize = true;
+            tableLayoutPanel1.BackColor = Color.Transparent;
             tableLayoutPanel1.BackgroundImageLayout = ImageLayout.Center;
             tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Inset;
             tableLayoutPanel1.ColumnCount = 3;
@@ -336,7 +337,7 @@
             tableLayoutPanel1.Controls.Add(label1, 0, 9);
             tableLayoutPanel1.Controls.Add(label3, 1, 0);
             tableLayoutPanel1.Controls.Add(m9, 2, 9);
-            tableLayoutPanel1.Location = new Point(71, 200);
+            tableLayoutPanel1.Location = new Point(61, 106);
             tableLayoutPanel1.Margin = new Padding(0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 10;
@@ -351,16 +352,16 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 40F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 40F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(912, 428);
+            tableLayoutPanel1.Size = new Size(676, 428);
             tableLayoutPanel1.TabIndex = 20;
             tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // m8
             // 
             m8.Anchor = AnchorStyles.None;
-            m8.BackColor = SystemColors.Menu;
+            m8.BackColor = SystemColors.Control;
             m8.BorderStyle = BorderStyle.None;
-            m8.Location = new Point(677, 348);
+            m8.Location = new Point(559, 348);
             m8.Name = "m8";
             m8.Size = new Size(111, 20);
             m8.TabIndex = 25;
@@ -369,9 +370,9 @@
             // m7
             // 
             m7.Anchor = AnchorStyles.None;
-            m7.BackColor = SystemColors.Menu;
+            m7.BackColor = SystemColors.Control;
             m7.BorderStyle = BorderStyle.None;
-            m7.Location = new Point(677, 306);
+            m7.Location = new Point(559, 306);
             m7.Name = "m7";
             m7.Size = new Size(111, 20);
             m7.TabIndex = 26;
@@ -380,9 +381,9 @@
             // m6
             // 
             m6.Anchor = AnchorStyles.None;
-            m6.BackColor = SystemColors.Menu;
+            m6.BackColor = SystemColors.Control;
             m6.BorderStyle = BorderStyle.None;
-            m6.Location = new Point(677, 264);
+            m6.Location = new Point(559, 264);
             m6.Name = "m6";
             m6.Size = new Size(111, 20);
             m6.TabIndex = 27;
@@ -391,9 +392,9 @@
             // m5
             // 
             m5.Anchor = AnchorStyles.None;
-            m5.BackColor = SystemColors.Menu;
+            m5.BackColor = SystemColors.Control;
             m5.BorderStyle = BorderStyle.None;
-            m5.Location = new Point(677, 222);
+            m5.Location = new Point(559, 222);
             m5.Name = "m5";
             m5.Size = new Size(111, 20);
             m5.TabIndex = 28;
@@ -402,9 +403,9 @@
             // m4
             // 
             m4.Anchor = AnchorStyles.None;
-            m4.BackColor = SystemColors.Menu;
+            m4.BackColor = SystemColors.Control;
             m4.BorderStyle = BorderStyle.None;
-            m4.Location = new Point(677, 180);
+            m4.Location = new Point(559, 180);
             m4.Name = "m4";
             m4.Size = new Size(111, 20);
             m4.TabIndex = 29;
@@ -413,9 +414,9 @@
             // m3
             // 
             m3.Anchor = AnchorStyles.None;
-            m3.BackColor = SystemColors.Menu;
+            m3.BackColor = SystemColors.Control;
             m3.BorderStyle = BorderStyle.None;
-            m3.Location = new Point(677, 138);
+            m3.Location = new Point(559, 138);
             m3.Name = "m3";
             m3.Size = new Size(111, 20);
             m3.TabIndex = 31;
@@ -426,7 +427,7 @@
             label17.Anchor = AnchorStyles.None;
             label17.BackColor = SystemColors.ControlLight;
             label17.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label17.Location = new Point(674, 2);
+            label17.Location = new Point(556, 2);
             label17.Margin = new Padding(0);
             label17.Name = "label17";
             label17.Size = new Size(117, 40);
@@ -437,9 +438,9 @@
             // m2
             // 
             m2.Anchor = AnchorStyles.None;
-            m2.BackColor = SystemColors.Menu;
+            m2.BackColor = SystemColors.Control;
             m2.BorderStyle = BorderStyle.None;
-            m2.Location = new Point(677, 96);
+            m2.Location = new Point(559, 96);
             m2.Name = "m2";
             m2.Size = new Size(111, 20);
             m2.TabIndex = 30;
@@ -449,9 +450,9 @@
             // m1
             // 
             m1.Anchor = AnchorStyles.None;
-            m1.BackColor = SystemColors.Menu;
+            m1.BackColor = SystemColors.Control;
             m1.BorderStyle = BorderStyle.None;
-            m1.Location = new Point(677, 54);
+            m1.Location = new Point(559, 54);
             m1.Name = "m1";
             m1.Size = new Size(111, 20);
             m1.TabIndex = 24;
@@ -461,9 +462,9 @@
             // m9
             // 
             m9.Anchor = AnchorStyles.None;
-            m9.BackColor = SystemColors.Menu;
+            m9.BackColor = SystemColors.Control;
             m9.BorderStyle = BorderStyle.None;
-            m9.Location = new Point(677, 393);
+            m9.Location = new Point(559, 393);
             m9.Name = "m9";
             m9.Size = new Size(111, 20);
             m9.TabIndex = 32;
@@ -476,12 +477,12 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(861, 681);
+            button1.Location = new Point(615, 587);
             button1.Margin = new Padding(0);
             button1.Name = "button1";
-            button1.Size = new Size(122, 34);
+            button1.Size = new Size(120, 35);
             button1.TabIndex = 21;
-            button1.Text = "GPA";
+            button1.Text = "Calculate";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -492,10 +493,10 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(71, 681);
+            button2.Location = new Point(61, 587);
             button2.Margin = new Padding(0);
             button2.Name = "button2";
-            button2.Size = new Size(85, 36);
+            button2.Size = new Size(120, 35);
             button2.TabIndex = 22;
             button2.Text = "Clear";
             button2.UseVisualStyleBackColor = false;
@@ -505,14 +506,16 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Control;
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(1049, 878);
+            ClientSize = new Size(796, 691);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(tableLayoutPanel1);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "Form1";
             Text = "CGPA Calculator";
+            Load += Form1_Load;
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             ResumeLayout(false);

@@ -59,5 +59,15 @@ namespace CGPA.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wp1973928_tony_tony_chopper_wallpapers {
+            get {
+                object obj = ResourceManager.GetObject("wp1973928-tony-tony-chopper-wallpapers", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
